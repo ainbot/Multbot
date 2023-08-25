@@ -126,14 +126,14 @@ export const GenerateButton = styled.button`
 export const TimeGrid = styled.div`
   display: flex;
   flex-wrap: wrap;
-  width: 80%;
+  width: 100%;
   justify-content: center;
   gap: 7px;
   margin-top: 10px;
 `;
 
 export const TimeSlot = styled.div`
-  font-size: 10px;
+  font-size: 14px;
   font-weight: bold;
   color: white;
   background-color: ${(props) => props.color};

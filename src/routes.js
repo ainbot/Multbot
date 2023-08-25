@@ -6,8 +6,8 @@ import Home from './pages/home/Home';
 const Routes = () => {
   return (
     <Switch>
-      <Route path="/login" component={Login} />
-      <Route path="/" component={Home} />
+      <Route exact path="/" component={Home} />
+      <Route path="/home" component={Home} />
     </Switch>
   );
 };

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { firebaseApp1, auth1 } from './firebase';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import Login from './pages/login/Login';
+import Login from './pages/home/Home';
 import Home from './pages/home/Home';
 
 const App = () => {
@@ -35,8 +35,8 @@ const App = () => {
     <Router>
       <div>
         <Routes>
-          <Route path="/login" element={<Login setUsername={setUsername} />} />
-          <Route path="/" element={loggedIn ? <Home username={username} onLogout={handleLogout} /> : <Navigate to="/login" replace />} />
+          <Route path="/home" element={<Login setUsername={setUsername} />} />
+          <Route path="/" element={loggedIn ? <Home username={username} onLogout={handleLogout} /> : <Navigate to="/home" replace />} />
         </Routes>
       </div>
     </Router>
