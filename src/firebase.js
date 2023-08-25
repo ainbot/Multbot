@@ -2,12 +2,12 @@ import { initializeApp } from 'firebase/app';
 import { getAuth, setPersistence, browserSessionPersistence } from 'firebase/auth';
 
 const firebaseConfig1 = {
-  apiKey: "AIzaSyDNBeD74W8-CNmLX_ChQchxq0qsmJeoBoE",
-  authDomain: "aviator-ainbot-267b3.firebaseapp.com",
-  projectId: "aviator-ainbot-267b3",
-  storageBucket: "aviator-ainbot-267b3.appspot.com",
-  messagingSenderId: "473523611344",
-  appId: "1:473523611344:web:0a017285856a54f58960d5"
+  apiKey: "AIzaSyB1woaxIGO60HjwULxxXzsJjxuchf6SVa8",
+  authDomain: "usuario-ainbot.firebaseapp.com",
+  projectId: "usuario-ainbot",
+  storageBucket: "usuario-ainbot.appspot.com",
+  messagingSenderId: "925267733152",
+  appId: "1:925267733152:web:73d11ce448c5947bd137c5"
 };
 
 const firebaseConfig2 = {
